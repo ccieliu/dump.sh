@@ -3807,3 +3807,20 @@ AttributeError: type object 'PyMongo' has no attribute 'DESCENDING'
 2020-09-16 12:54:50,159 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 2020-09-16 12:54:51,578 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 12:54:51] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
 2020-09-16 12:55:40,017 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 13:17:18,020 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 13:17:20,264 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:20] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 13:17:20,782 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:20] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 13:17:20,928 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:20] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 13:17:21,085 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:21] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 13:17:21,219 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:21] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 13:17:21,333 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:21] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 13:17:43,229 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 13:17:45,734 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:45] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 13:17:45,915 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:45] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 13:17:46,053 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:46] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 13:17:46,185 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:46] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 13:17:46,758 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:46] "[37mGET /3kxzGS HTTP/1.1[0m" 200 -
+2020-09-16 13:17:47,965 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:47] "[37mGET /pwviEF HTTP/1.1[0m" 200 -
+2020-09-16 13:17:53,159 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:53] "[37mGET /hqExWR HTTP/1.1[0m" 200 -
+2020-09-16 13:17:54,316 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:54] "[37mGET /z9Zzyf HTTP/1.1[0m" 200 -
+2020-09-16 13:17:55,408 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:55] "[37mGET /KJy1OE HTTP/1.1[0m" 200 -

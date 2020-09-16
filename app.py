@@ -5,10 +5,16 @@ from logger import logger
 from randomStr import randomStr
 import hashlib
 import datetime
+import configparser
+
+config = configparser.ConfigParser()
+config.read('config.ini')
+config.sections()
+mongoURL = config["database"]["mongoURL"]
+
 
 app = Flask(__name__)
-app.secret_key = u"dLhwX<<sK/C7:=XTSPy^*P&pcSka5@^;h:bx;>aa&RUS!p.KHr~n/+;.g.zBF]Q7/u*8~x/hTDFvxe9y;x5~ex/XSX!4Hk_g7tyfXFGBHYGVCH"
-app.config["MONGO_URI"] = "mongodb://root:example@172.25.251.103:27017/dumpsh?authSource=admin"
+app.config["MONGO_URI"] = mongoURL
 mongo = flask_pymongo.PyMongo(app)
 
 
