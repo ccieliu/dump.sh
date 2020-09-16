@@ -3826,3 +3826,169 @@ AttributeError: type object 'PyMongo' has no attribute 'DESCENDING'
 2020-09-16 13:17:55,408 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:55] "[37mGET /KJy1OE HTTP/1.1[0m" 200 -
 2020-09-16 13:24:22,015 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 2020-09-16 13:24:26,644 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:24:26] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:01:17,049 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:01:21,272 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:01:21] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:01:21,551 - app.py[line:98] - INFO : No Log for URL: favicon.ico
+2020-09-16 15:01:21,552 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:01:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-09-16 15:01:26,137 - app.py[line:98] - INFO : No Log for URL: demo3
+2020-09-16 15:01:26,138 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:01:26] "[33mGET /demo3 HTTP/1.1[0m" 404 -
+2020-09-16 15:01:28,978 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:01:28] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:02:39,437 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:02:39] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:02:40,046 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:02:40] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:02:40,911 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:02:40] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:02:41,464 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:02:41] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:02:42,297 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:02:42] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:02:42,548 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:02:42] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:02:43,107 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:02:43] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:02:47,794 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:02:47] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:05:09,234 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:05:09] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:05:10,935 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:05:10] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:05:11,846 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:05:11] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:05:12,098 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:05:12] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:27:50,721 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:27:50] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:28:50,674 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:28:50] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:29:00,874 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:29:00] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:29:09,587 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:29:09] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:29:16,978 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:29:16] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:30:36,310 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:30:38,892 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:30:38] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:33:02,070 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:33:02,403 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:33:02] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:33:05,818 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:33:05] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:33:43,882 - app.py[line:65] - INFO : DUMP_USER:demo3 , IP:172.25.251.103 , URL:bgoMC5
+2020-09-16 15:33:43,894 - app.py[line:84] - INFO : POST_DONE: User:demo3 , IP:172.25.251.103 , URL:bgoMC5
+2020-09-16 15:33:43,895 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:33:43] "[37mPOST / HTTP/1.1[0m" 200 -
+2020-09-16 15:33:49,232 - app.py[line:65] - INFO : DUMP_USER:demo3 , IP:172.25.251.103 , URL:vwvqFQ
+2020-09-16 15:33:49,238 - app.py[line:84] - INFO : POST_DONE: User:demo3 , IP:172.25.251.103 , URL:vwvqFQ
+2020-09-16 15:33:49,240 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:33:49] "[37mPOST / HTTP/1.1[0m" 200 -
+2020-09-16 15:33:51,658 - app.py[line:65] - INFO : DUMP_USER:demo3 , IP:172.25.251.103 , URL:4DwOCU
+2020-09-16 15:33:51,672 - app.py[line:84] - INFO : POST_DONE: User:demo3 , IP:172.25.251.103 , URL:4DwOCU
+2020-09-16 15:33:51,675 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:33:51] "[37mPOST / HTTP/1.1[0m" 200 -
+2020-09-16 15:33:57,111 - app.py[line:65] - INFO : DUMP_USER:demo3 , IP:172.25.251.103 , URL:ReKYBv
+2020-09-16 15:33:57,118 - app.py[line:84] - INFO : POST_DONE: User:demo3 , IP:172.25.251.103 , URL:ReKYBv
+2020-09-16 15:33:57,119 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:33:57] "[37mPOST / HTTP/1.1[0m" 200 -
+2020-09-16 15:34:02,057 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:34:02] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:34:37,256 - app.py[line:65] - INFO : DUMP_USER:demo3 , IP:172.25.251.103 , URL:mh6Cyn
+2020-09-16 15:34:37,262 - app.py[line:84] - INFO : POST_DONE: User:demo3 , IP:172.25.251.103 , URL:mh6Cyn
+2020-09-16 15:34:37,263 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:34:37] "[37mPOST / HTTP/1.1[0m" 200 -
+2020-09-16 15:34:39,993 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:34:39] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:34:42,354 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:34:42] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:34:43,146 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:34:43] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:34:59,430 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:35:00,497 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:35:00] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:35:03,090 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:35:03] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:35:28,491 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:35:28] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:35:28,731 - app.py[line:100] - INFO : No Log for URL: favicon.ico
+2020-09-16 15:35:28,732 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:35:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-09-16 15:35:30,108 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:35:30] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:35:30,902 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:35:30] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:35:31,153 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:35:31] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:35:43,460 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:35:45,405 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:35:45] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:37:17,340 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:37:17] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:38:00,036 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:38:00] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:38:00,496 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:38:00] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:38:28,354 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:38:28] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:38:45,215 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:38:45,936 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:38:45] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 15:38:50,539 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:38:50] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:42:35,007 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:42:35] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:42:35,820 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:42:35] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:42:36,399 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:42:36] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:42:36,651 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:42:36] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:42:58,256 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:43:05,178 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:43:05] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:43:08,707 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:43:08] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:43:10,460 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:43:10] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:43:11,188 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:43:11] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:46:03,972 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:46:03] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:46:55,846 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:46:56,313 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:46:56] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:46:58,075 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:46:58] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:47:04,799 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:47:05,222 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:47:05] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:47:07,035 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:47:07] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:47:14,746 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:47:15,720 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:47:15] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:47:25,086 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:47:25,620 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:47:25] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:47:34,555 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:47:35,062 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:47:35] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:47:36,348 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:47:36] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:48:07,895 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 15:48:07] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:48:45,224 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:48:45,616 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:48:45] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:48:47,316 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:48:47] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:48:53,107 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:48:53,954 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:48:53] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:48:59,778 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:49:00,498 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:49:00] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:57:33,794 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:57:38,871 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:57:38] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:57:50,487 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:57:51,023 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:57:51] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:57:53,577 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:57:53] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:58:04,853 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:58:05,399 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:58:05] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:58:11,050 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:58:11,142 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:58:11] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:59:09,061 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 15:59:15,486 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:59:15] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 15:59:17,793 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 15:59:17] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:00:00,761 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:00:00] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:08:13,801 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:08:13] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:08:27,172 - app.py[line:69] - INFO : DUMP_USER:demo3 , IP:172.25.251.103 , URL:rXupAC
+2020-09-16 16:08:27,210 - app.py[line:88] - INFO : POST_DONE: User:demo3 , IP:172.25.251.103 , URL:rXupAC
+2020-09-16 16:08:27,212 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:08:27] "[37mPOST / HTTP/1.1[0m" 200 -
+2020-09-16 16:09:17,683 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:09:17] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 16:12:26,212 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:12:32,771 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:12:35,123 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:12:35] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 16:12:37,299 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:12:37] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 16:13:05,328 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:13:06,973 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:13:06] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 16:13:09,460 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:13:09] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 16:13:30,711 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:13:30] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:13:39,011 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:13:39,844 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:13:39] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:14:39,991 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:14:39] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:14:43,967 - app.py[line:104] - INFO : No Log for URL: demo3
+2020-09-16 16:14:43,969 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:14:43] "[33mGET /demo3 HTTP/1.1[0m" 404 -
+2020-09-16 16:14:54,387 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:14:54] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 16:15:15,216 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:15:15] "[37mGET /rXupAC HTTP/1.1[0m" 200 -
+2020-09-16 16:18:29,615 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:18:31,549 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:18:31] "[37mGET /rXupAC HTTP/1.1[0m" 200 -
+2020-09-16 16:18:34,087 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:18:34] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:19:00,445 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:19:01,868 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:19:01] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:20:06,303 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:20:07,413 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 16:20:07] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:20:24,064 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:20:25,015 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 16:20:25] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:20:49,654 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:20:49] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:20:53,421 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:20:53] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:21:00,151 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:21:00] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:21:12,228 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:21:14,332 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:21:14] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:21:19,135 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:21:19] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:21:26,941 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 16:21:26] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:22:05,311 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:22:18,320 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:22:29,106 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:22:31,341 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:22:31] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:22:33,318 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:22:33] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:22:41,238 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:22:44,200 - _internal.py[line:113] - INFO : 127.0.0.1 - - [16/Sep/2020 16:22:44] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:23:26,823 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:23:26] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:23:29,214 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:23:29] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:23:38,810 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:23:39,551 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:23:39] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:23:41,526 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:23:41] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:23:47,966 - app.py[line:105] - INFO : No Log for URL: demo3
+2020-09-16 16:23:47,967 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:23:47] "[33mGET /demo3 HTTP/1.1[0m" 404 -
+2020-09-16 16:23:50,393 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:23:50] "[37mGET /demo3/ HTTP/1.1[0m" 200 -
+2020-09-16 16:25:53,383 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:25:56,077 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:25:56] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:26:29,170 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 16:26:30,723 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:26:30] "[37mGET / HTTP/1.1[0m" 200 -
+2020-09-16 16:26:32,452 - _internal.py[line:113] - INFO : 172.25.251.103 - - [16/Sep/2020 16:26:32] "[37mGET / HTTP/1.1[0m" 200 -

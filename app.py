@@ -20,6 +20,8 @@ app.config["MONGO_URI"] = mongoURL
 mongo = flask_pymongo.PyMongo(app)
 
 """ Define the function about Post log """
+
+
 def postLog(username, URL, value):
     mongo.db.logs.insert_one({"USER": username,
                               "URL": URL,
@@ -37,7 +39,12 @@ def page_not_found(e):
 # Index page
 def index():
     if request.method == "GET":
-        return(Response("HELP\r\n", mimetype="text/plain"))
+        if "curl" in request.headers.get('User-Agent'):
+            return(Response(render_template("index_curl.txt"), mimetype="text/plain"))
+        else:
+            return(Response(render_template("index_curl.txt"), mimetype="text/plain"))
+            # return(render_template("index.html"))
+
     elif request.method == "POST":
         mystr = randomStr()
         URL = mystr.getRandomStr()
@@ -63,7 +70,7 @@ def index():
                 logger.info("DUMP_USER:{} , IP:{} , URL:{}".format(
                     username, request.remote_addr, URL))
                 dbUserName = mongo.db.username.find({"user": username})
-                
+
                 if dbUserName.count() == 0:
                     """ Customer post username and password, but no user in database, so create the NEW USERNAME """
                     mongo.db.username.insert_one({"user": username,
@@ -109,4 +116,7 @@ def getUserLogList(username):
         """ Return the special url logs """
         userLogList = mongo.db.logs.find({"USER": username}).sort(
             "date", flask_pymongo.DESCENDING)
-        return(render_template("userLogList.html", userLogList=userLogList))
+        if "curl" in request.headers.get('User-Agent'):
+            return(render_template("userLogList_curl.html", userLogList=userLogList))
+        else:
+            return(render_template("userLogList.html", userLogList=userLogList))

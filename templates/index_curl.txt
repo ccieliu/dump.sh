@@ -1,0 +1,52 @@
+dump.sh (1)                      Dump Shell Manual                  dump.sh (1)
+
+
+NAME
+        dump.sh - Save your command line output.
+
+DESCRIPTION
+        dump.sh is a tool to save data to http://dump.sh server, using one of 
+        supported tool (curl, PostMan, and etc.). The command is designed to 
+        work without user interaction. 
+
+EXAMPLE
+        ANONYMOUS POST LOGS:
+
+                $ echo "Hello World" | curl -F '=<-' dump.sh
+                  http://dump.sh/rXupAC
+
+                $ curl -F '=@demo.txt' dump.sh
+                  http://dump.sh/mh6Cyn
+
+        CREATE/LOGIN USER POST LOGS:
+        
+                $ echo "Hello World" | curl -F 'USERNAME:PASSWORD=<-' dump.sh
+                  http://dump.sh/4DwOCU
+
+                $ curl -F 'USERNAME:PASSWORD=@demo.txt' dump.sh
+                  http://dump.sh/vwvqFQ
+
+        LIST USER RECOARDS:
+
+                $ curl dump.sh/testuser/        <<<<<The slash is very important
+                  http://dump.sh/rXupAC -- 2020-09-16 16:08:27.208000
+                  http://dump.sh/mh6Cyn -- 2020-09-16 15:34:37.260000
+                  http://dump.sh/ReKYBv -- 2020-09-16 15:33:57.117000
+                  http://dump.sh/4DwOCU -- 2020-09-16 15:33:51.670000
+                  http://dump.sh/vwvqFQ -- 2020-09-16 15:33:49.237000
+                  http://dump.sh/bgoMC5 -- 2020-09-16 15:33:43.886000
+
+        GET USER LOG:
+
+                $ curl http://dump.sh/rXupAC
+                  Hello World
+
+CHANGES
+        20200916
+            The first release of dump.sh
+
+TODO
+        0. Should support delete the LOG.
+        1. Shouls support change password.
+
+

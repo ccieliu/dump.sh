@@ -1,5 +1,11 @@
-<ul>
-    {% for userLog in userLogList %}
-    <li><a href="/{{ userLog.URL }}">{{ userLog.URL }}</a> -- {{ userLog.date }} -- {{ userLog.value }} </li>
-    {% endfor %}
-</ul>
+<head>
+    <title>dump.sh</title>
+</head>
+
+<body>
+    <ul>
+        {% for userLog in userLogList %}
+        <li><a href="/{{ userLog.URL }}">{{ userLog.URL }}</a> -- {{ userLog.date }}</li>
+        {% endfor %}
+    </ul>
+</body>
