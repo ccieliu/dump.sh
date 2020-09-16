@@ -3824,3 +3824,5 @@ AttributeError: type object 'PyMongo' has no attribute 'DESCENDING'
 2020-09-16 13:17:53,159 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:53] "[37mGET /hqExWR HTTP/1.1[0m" 200 -
 2020-09-16 13:17:54,316 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:54] "[37mGET /z9Zzyf HTTP/1.1[0m" 200 -
 2020-09-16 13:17:55,408 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:17:55] "[37mGET /KJy1OE HTTP/1.1[0m" 200 -
+2020-09-16 13:24:22,015 - _internal.py[line:113] - INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-09-16 13:24:26,644 - _internal.py[line:113] - INFO : 192.168.0.116 - - [16/Sep/2020 13:24:26] "[37mGET /demo3/ HTTP/1.1[0m" 200 -

@@ -3,6 +3,8 @@ import string
 
 
 class randomStr(object):
+    """ Generate a random String """
+
     def __init__(self):
         self.letters = string.ascii_letters+string.digits
 
