@@ -1,5 +1,6 @@
 dump.sh (1)                      Dump Shell Manual                  dump.sh (1)
 
+Source code: https://github.com/ccieliu/dump.sh
 
 NAME
         dump.sh - Save your command line output.
