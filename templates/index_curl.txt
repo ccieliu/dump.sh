@@ -12,10 +12,10 @@ DESCRIPTION
 EXAMPLE
         ANONYMOUS POST LOGS:
 
-                $ echo "Hello World" | curl -F '=<-' dump.sh
+                $ echo "Hello World" | curl -F ':=<-' dump.sh
                   http://dump.sh/rXupAC
 
-                $ curl -F '=@demo.txt' dump.sh
+                $ curl -F ':=@demo.txt' dump.sh
                   http://dump.sh/mh6Cyn
 
         CREATE/LOGIN USER POST LOGS:

@@ -49,7 +49,7 @@ def index():
         mystr = randomStr()
         URL = mystr.getRandomStr()
         for account in request.form:
-            if account == None:
+            if account == ":":
                 """ No username , anonymous update """
                 postLog("anonymous", URL, value=request.form[account])
                 logger.info("POST_DONE: User:{} , IP:{} , URL:{}".format(
@@ -120,3 +120,7 @@ def getUserLogList(username):
             return(render_template("userLogList_curl.html", userLogList=userLogList))
         else:
             return(render_template("userLogList.html", userLogList=userLogList))
+
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=80)
